@@ -1,0 +1,31 @@
+# exclude all
+/*
+
+# include important folders
+# need maven files
+!pom.xml
+
+# include markdowns
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+
+# include sourcecode
+!cdbookstore-web
+!invoices-ms
+!test
+!topbooks-ms
+!topcds-ms
+
+# include git important files
+!.gitmodules
+!.gitignore
+
+# include doployment scripts
+!deploy.sh
+!undeploy.sh
+
+# include EditorConfig support file
+!.editorconfig
+
+*.iml
